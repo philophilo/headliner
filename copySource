@@ -1,0 +1,367 @@
+{
+    "rt": {
+        "featuredImage": {
+            "meta": "og:image", 
+            "tag": "", 
+            "class": "media__item"
+        }, 
+        "articleBody": {
+            "class": "article__text"
+        }, 
+        "link": {
+            "siteUrl": "http://www.rt.com"
+        }, 
+        "name": {
+            "siteName": "rt"
+        }, 
+        "title": {
+            "meta": "og:title", 
+            "tag": "title", 
+            "class": "article__heading"
+        }, 
+        "date": {
+            "meta": "", 
+            "tag": "", 
+            "class": "date_article-header"
+        }, 
+        "pageType": {
+            "meta": "og:type"
+        }, 
+        "avoid": {
+            "class": [
+                "EmbeddedTweet-tweet", 
+                "tweet-InformationCircle"
+            ]
+        }, 
+        "author": {
+            "meta": "", 
+            "tag": "", 
+            "class": ""
+        }, 
+        "articleSummary": {
+            "meta": "og:description", 
+            "tag": "", 
+            "class": "article__summary"
+        }
+    }, 
+    "monitor": {
+        "featuredImage": {
+            "meta": "og:image", 
+            "tag": "", 
+            "class": "photo_article"
+        }, 
+        "articleBody": {
+            "class": "body-copy"
+        }, 
+        "link": {
+            "siteUrl": "http://www.monitor.co.ug"
+        }, 
+        "name": {
+            "siteName": "monitor"
+        }, 
+        "title": {
+            "meta": "og:title", 
+            "tag": "title", 
+            "class": "top-story-block"
+        }, 
+        "date": {
+            "meta": "og:updated_time", 
+            "tag": "", 
+            "class": ""
+        }, 
+        "pageType": {
+            "meta": "og:type"
+        }, 
+        "avoid": {
+            "class": [
+                "article-image"
+            ]
+        }, 
+        "author": {
+            "meta": "", 
+            "tag": "", 
+            "class": "author"
+        }, 
+        "articleSummary": {
+            "meta": "og:description", 
+            "tag": "", 
+            "class": "article-description"
+        }
+    }, 
+    "newVision": {
+        "featuredImage": {
+            "meta": "og:image", 
+            "tag": "", 
+            "class": ""
+        }, 
+        "articleBody": {
+            "class": "article-content"
+        }, 
+        "link": {
+            "siteUrl": "http://www.newvision.co.ug"
+        }, 
+        "name": {
+            "siteName": "newvision"
+        }, 
+        "title": {
+            "meta": "og:title", 
+            "tag": "title", 
+            "class": "top-story-block"
+        }, 
+        "date": {
+            "meta": "", 
+            "tag": "", 
+            "class": "publish-date"
+        }, 
+        "pageType": {
+            "meta": "og:type"
+        }, 
+        "avoid": {
+            "class": [
+                "article-image"
+            ]
+        }, 
+        "author": {
+            "meta": "", 
+            "tag": "", 
+            "class": "author"
+        }, 
+        "articleSummary": {
+            "meta": "og:description", 
+            "tag": "", 
+            "class": "article-description"
+        }
+    }, 
+    "bbc": {
+        "featuredImage": {
+            "meta": "og:image", 
+            "tag": "", 
+            "class": "js-image-replace"
+        }, 
+        "articleBody": {
+            "class": "story-body__inner"
+        }, 
+        "link": {
+            "siteUrl": "http://www.bbc.com"
+        }, 
+        "name": {
+            "siteName": "bbc"
+        }, 
+        "title": {
+            "meta": "og:title", 
+            "tag": "title", 
+            "class": "post-title"
+        }, 
+        "date": {
+            "meta": "", 
+            "tag": "", 
+            "class": "date--v2"
+        }, 
+        "pageType": {
+            "meta": "og:type"
+        }, 
+        "avoid": {
+            "tag": "figure", 
+            "class": [
+                "article-image", 
+                "story-body__unordered-list"
+            ]
+        }, 
+        "author": {
+            "meta": "", 
+            "tag": "", 
+            "class": ""
+        }, 
+        "articleSummary": {
+            "meta": "og:description", 
+            "tag": "", 
+            "class": ""
+        }
+    }, 
+    "sputnik": {
+        "featuredImage": {
+            "meta": "og:image", 
+            "tag": "", 
+            "class": ""
+        }, 
+        "articleBody": {
+            "class": "b-article__text"
+        }, 
+        "link": {
+            "siteUrl": "http://sputniknews.com"
+        }, 
+        "name": {
+            "siteName": "sputnik"
+        }, 
+        "title": {
+            "meta": "og:title", 
+            "tag": "title", 
+            "class": "b-article__header-title"
+        }, 
+        "date": {
+            "meta": "pubdate", 
+            "tag": "", 
+            "class": "b-article__refs-date"
+        }, 
+        "pageType": {
+            "meta": "og:type"
+        }, 
+        "avoid": {
+            "tag": "figure", 
+            "class": [
+                "marker-quote1", 
+                "b-inject"
+            ]
+        }, 
+        "author": {
+            "meta": "author", 
+            "tag": "", 
+            "class": ""
+        }, 
+        "articleSummary": {
+            "meta": "description", 
+            "tag": "", 
+            "class": "b-article__lead"
+        }
+    }, 
+    "theIndependent": {
+        "featuredImage": {
+            "meta": "og:image", 
+            "tag": "", 
+            "class": "tie-appear"
+        }, 
+        "articleBody": {
+            "class": "entry"
+        }, 
+        "link": {
+            "siteUrl": "http://www.independent.co.ug"
+        }, 
+        "name": {
+            "siteName": "theIndependent"
+        }, 
+        "title": {
+            "meta": "og:title", 
+            "tag": "title", 
+            "class": "post-title"
+        }, 
+        "date": {
+            "meta": "article:published_time", 
+            "tag": "", 
+            "class": "tie-date"
+        }, 
+        "pageType": {
+            "meta": "og:type"
+        }, 
+        "avoid": {
+            "tag": "figure", 
+            "class": [
+                "story"
+            ]
+        }, 
+        "author": {
+            "meta": "", 
+            "tag": "", 
+            "class": "post-meta-author"
+        }, 
+        "articleSummary": {
+            "meta": "og:description", 
+            "tag": "", 
+            "class": "article-description"
+        }
+    }, 
+    "cnn": {
+        "featuredImage": {
+            "meta": "og:image", 
+            "tag": "", 
+            "class": "media__image"
+        }, 
+        "articleBody": {
+            "class": "zn-body-text"
+        }, 
+        "link": {
+            "siteUrl": "http://edition.cnn.com"
+        }, 
+        "name": {
+            "siteName": "cnn"
+        }, 
+        "title": {
+            "meta": "og:title", 
+            "tag": "title", 
+            "class": "pg-headline"
+        }, 
+        "date": {
+            "meta": "og:pubdate", 
+            "tag": "", 
+            "class": "update-time"
+        }, 
+        "pageType": {
+            "meta": "og:type"
+        }, 
+        "avoid": {
+            "tag": "figure", 
+            "class": [
+                "el__storyhighlights", 
+                "el__article--embed", 
+                "el__embedded", 
+                "pg-rail-tall__head"
+            ]
+        }, 
+        "author": {
+            "meta": "author", 
+            "tag": "", 
+            "class": "metadata__byline__author"
+        }, 
+        "articleSummary": {
+            "meta": "og:description", 
+            "tag": "", 
+            "class": "b-article__lead"
+        }
+    }, 
+    "aljazeera": {
+        "featuredImage": {
+            "meta": "og:image", 
+            "tag": "", 
+            "class": ""
+        }, 
+        "articleBody": {
+            "class": "article-body"
+        }, 
+        "link": {
+            "siteUrl": "http://www.aljazeera.com"
+        }, 
+        "name": {
+            "siteName": "aljazeera"
+        }, 
+        "title": {
+            "meta": "og:title", 
+            "tag": "title", 
+            "class": "heading-story"
+        }, 
+        "date": {
+            "meta": "", 
+            "tag": "time", 
+            "class": ""
+        }, 
+        "pageType": {
+            "meta": ""
+        }, 
+        "avoid": {
+            "class": [
+                "vjs-poster", 
+                "in-article-item", 
+                "ReadMoreContentSeparator", 
+                "QuoteContainer"
+            ]
+        }, 
+        "author": {
+            "meta": "author", 
+            "tag": "", 
+            "class": ""
+        }, 
+        "articleSummary": {
+            "meta": "og:description", 
+            "tag": "", 
+            "class": ""
+        }
+    }
+}
