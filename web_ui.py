@@ -8,31 +8,35 @@ from langProc import toQueryTerms
 import logging
 import cgi
 from datetime import datetime
-import os
-import workaround
 
 searcher = Searcher("rt/", ShelveIndexes)
 app = Flask(__name__)
 app.logger.setLevel(logging.DEBUG)
 Bootstrap(app)
 
+
 def url_for_other_page(page):
     args = request.view_args.copy()
     args['page'] = page
     return url_for(request.endpoint, **args)
 
+
 app.jinja_env.globals['url_for_other_page'] = url_for_other_page
+
 
 class SearchForm(Form):
     user_query = StringField('Query', validators=[DataRequired()])
     search_button = SubmitField("Search!")
 
+
 @app.route("/", methods=["GET", "POST"])
 def index():
     search_form = SearchForm(csrf_enabled=False)
     if search_form.validate_on_submit():
-        return redirect(url_for("search_results", query=search_form.user_query.data))
+        return redirect(url_for("search_results",
+                                query=search_form.user_query.data))
     return render_template("index.html", form=search_form)
+
 
 @app.route("/search_results/<query>", defaults={'page': 1})
 @app.route("/search_results/<query>/<int:page>")
@@ -48,17 +52,19 @@ def search_results(query, page):
         abort(404)
     docs = []
     for docid in docids:
-        docs.append((searcher.indexes.get_url(docid), searcher.generate_snippet(query_terms, docid), searcher.indexes.get_title(docid)))
+        docs.append((searcher.indexes.get_url(docid),
+                     searcher.generate_snippet(query_terms, docid),
+                     searcher.indexes.get_title(docid)))
     finish_time = datetime.now()
 
     return render_template("search_results.html",
-                         processing_time=(finish_time-start_time),
-                         offset=((page-1)*page_size),
-                         total_doc_num=search_results.total_doc_num(),
-                         pagination = pagination,
-                         query=cgi.escape(query),
-                         docs=docs)
+                           processing_time=(finish_time-start_time),
+                           offset=((page-1)*page_size),
+                           total_doc_num=search_results.total_doc_num(),
+                           pagination=pagination,
+                           query=cgi.escape(query),
+                           docs=docs)
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0', port=8080)
