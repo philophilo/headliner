@@ -8,3 +8,5 @@ aljazeera/*
 cnn/*
 bbc/*
 *.pyc
+nltk_data/*
+venv/
